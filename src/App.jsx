@@ -71,7 +71,7 @@ function App() {
         </div>
       ) : (
         <div className="p-4 w-[400px] mx-auto bg-slate-300 rounded shadow mt-10 text-center">
-          <h1 className="text-2xl font-bold mb-5">Database Sign Up</h1>
+          <h1 className="text-2xl font-bold mb-5">Gerenciamento de Usuários</h1>
 
           <input
             className="border p-1 mr-2 pl-2"
