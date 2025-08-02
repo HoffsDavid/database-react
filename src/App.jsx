@@ -1,4 +1,3 @@
-import "./App.css";
 import { useState, useEffect } from "react";
 import { addUsuario, getUsuarios, deleteUsuario, updateUsuario } from "./db";
 import { TiPencil, TiDeleteOutline } from "react-icons/ti";
@@ -71,7 +70,7 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className="p-4 w-[400px] mx-auto bg-white rounded shadow mt-10 text-center">
+        <div className="p-4 w-[400px] mx-auto bg-slate-300 rounded shadow mt-10 text-center">
           <h1 className="text-2xl font-bold mb-5">Database Sign Up</h1>
 
           <input
