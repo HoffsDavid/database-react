@@ -1,7 +1,7 @@
 import { openDB } from 'idb';
 
 export const initDB = async () => {
-  return openDB('meuBancoOffline', 1, {
+  return openDB('database', 1, {
     upgrade(db) {
       if (!db.objectStoreNames.contains('usuarios')) {
         db.createObjectStore('usuarios', { keyPath: 'id', autoIncrement: true });
